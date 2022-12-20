@@ -69,7 +69,7 @@ header, footer {
     height: 100%;
 }
 /* About */
-.about {
+.about, .schedule, .author {
     background-color: #eee;
 }
 .about i {
@@ -97,7 +97,30 @@ header, footer {
     padding: 50px;
     border: 3px solid var(--color1);
 }
-/* Color */
+/* Accordeon */
+.accordion-button:not(.collapsed) {
+    color: var(--color1);
+    background-color: var(--bs-white);
+}
+/* Learning process */
+.learning h5 {
+    padding: 25px;
+    border: 3px solid var(--color1);
+}
+
+/* About author */
+.author {
+    padding: 35px;
+}
+.itd_img {
+    max-width: 220px;
+}
+/* Reviews */
+.rounded {
+    border-radius: 50% !important;
+    border: 3px solid var(--color1);
+}
+/* Color */ 
 .color1 {
     color: var(--color1)
 }
