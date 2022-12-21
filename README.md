@@ -1,4 +1,4 @@
-# bootstrap_project. Based on Youtube tutorial
+# bootstrap_tutorial_project. Based on Youtube tutorial
 
 # Just grab the files and open index.html
 
